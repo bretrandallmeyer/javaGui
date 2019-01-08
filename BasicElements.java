@@ -1,15 +1,15 @@
 import javax.swing.JFrame;
 
-public class BasicElements {
-	
-	public static void main(String args[]){
-		JFrame myframe = new JFrame();
+public  class BasicElements {
 
-		myframe.setDefaultCloseOperation(myFrame.EXIT_ON_CLOSE)
-		myframe.setVisible(true);
-		myframe.setSize(666, 666);
+    public static void main( String args[]){
+        JFrame myFrame = new JFrame();
 
-		System.out.println("Basic java element");
+        myFrame.setDefaultCloseOperation(myFrame.EXIT_ON_CLOSE);
+        myFrame.setVisible(true);
+        myFrame.setSize(666, 666);
 
-	}
+        System.out.println("basic java elements");
+    }
+
 }
