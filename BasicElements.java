@@ -3,7 +3,7 @@ import javax.swing.*;
 public  class BasicElements {
 
     public static void main( String args[]){
-        JFrame myFrame = new JFrame();
+        JFrame myFrame = new JFrame("A basic java gui");
         JButton myButton = new JButton();
         myButton.setSize(200,50);
 
